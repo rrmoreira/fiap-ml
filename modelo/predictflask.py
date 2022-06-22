@@ -37,7 +37,7 @@ def init():
     #model = joblib.load(model_path)
 
     #meumodelo = joblib.load( './nome_arquivo.pkl')
-    meumodelo = joblib.load( './modelo/nome_arquivo.pkl')
+    meumodelo = joblib.load( './modelo/modelo-classificador.pkl')
 
 @app.route("/score", methods=['POST'])
 def run(request = request):
