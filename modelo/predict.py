@@ -56,7 +56,7 @@ def run(data):
 
     ret = json.dumps({'prediction': list(prediction),
                       'proba': list(predict_proba),
-                      'author': "Elthon Manhas de Freitas"}, cls=NpEncoder)
+                      'author': "Raphael Moreira"}, cls=NpEncoder)
     print(ret)
 
     return app.response_class(response=ret, mimetype='application/json')
